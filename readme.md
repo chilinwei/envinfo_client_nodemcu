@@ -1,4 +1,4 @@
-# **使用 Raspberry Pi 3 進行感測器資料蒐集**
+# **使用 Raspberry Pi 3 進行感測器資料蒐集 (NodeMCU)**
 
 本範例使用 Raspberry Pi 3 (RPi) 與 NodeMCU 建構一環境資訊蒐集系統，範例分為3部份
 - [envinfo_server](https://github.com/chilinwei/envinfo_server)：使用RPi作為主機接收所有感測器回傳的資料
@@ -7,7 +7,7 @@
 
 ## **目錄**
 0. [系統架構說明](#0-系統架構說明)
-1. [使用 Arduino IDE 進行 NodeMCU(esp8266) 開發](#1-使用-arduino-ide-進行-nodemcu-esp8266--開發)
+1. [使用 Arduino IDE 進行 NodeMCU(esp8266) 開發](#1-使用-arduino-ide-進行-nodemcuesp8266-開發)
 2. [NodeMCU 安裝感測器](#2-nodemcu-安裝感測器)
 3. [安裝與部署本範例程式](#3-安裝與部署本範例程式)
 
