@@ -7,7 +7,7 @@
 
 ## **目錄**
 0. [系統架構說明](#0-系統架構說明)
-1. [使用 Arduino IDE 進行 Nodemcu(esp8266) 開發](#1-使用-arduino-ide-進行-nodemcu-esp8266-開發)
+1. [使用 Arduino IDE 進行 NodeMCU(esp8266) 開發](#1-使用-arduino-ide-進行-nodemcu-esp8266--開發)
 2. [NodeMCU 安裝感測器](#2-nodemcu-安裝感測器)
 3. [安裝與部署本範例程式](#3-安裝與部署本範例程式)
 
@@ -15,7 +15,7 @@
 本範例使用 Raspberry Pi 3 (RPi) 與 NodeMCU 建構一環境資訊蒐集系統。設計上client以無線網路方式透過master提供的RESTful api將感測器的數值與PiCamera拍攝的照片儲存於其中，使用者可透過瀏覽器查詢。
 ![](/pic/pic1.png)
 
-### **1. 使用 Arduino IDE 進行 Nodemcu(esp8266) 開發**
+### **1. 使用 Arduino IDE 進行 NodeMCU(esp8266) 開發**
 (1) 安裝 Arduino IDE
 請參考 [Getting Started with Arduino and Genuino products](https://www.arduino.cc/en/Guide/HomePage)  
 參閱 "Install the Arduino Desktop IDE" 部份  
