@@ -7,12 +7,9 @@
 
 ## **目錄**
 0. [系統架構說明](#0-系統架構說明)
-1. [RPi 作業系統安裝、設定與套件更新](#1-rpi-作業系統安裝設定與套件更新)
-2. [RPi 自動連入 server 端的 WAP](#2-rpi-自動連入-server-端的-wap)
-3. [RPi 安裝感測器](#3-rpi-安裝感測器)
-4. [安裝與部署本範例程式](#4-安裝與部署本範例程式)
-    - [取得範例程式碼](#取得範例程式碼)
-    - [建立自動上傳感測器數值的排程](#建立自動上傳感測器數值的排程)
+1. [使用 Arduino IDE 進行 Nodemcu(esp8266) 開發](#1-使用-arduino-ide-進行-nodemcu-esp8266-開發)
+2. [NodeMCU 安裝感測器](#2-nodemcu-安裝感測器)
+3. [安裝與部署本範例程式](#3-安裝與部署本範例程式)
 
 ### **0. 系統架構說明**
 本範例使用 Raspberry Pi 3 (RPi) 與 NodeMCU 建構一環境資訊蒐集系統。設計上client以無線網路方式透過master提供的RESTful api將感測器的數值與PiCamera拍攝的照片儲存於其中，使用者可透過瀏覽器查詢。
@@ -45,8 +42,6 @@
 ![](/pic/pic2.png)
 
 ### **3. 安裝與部署本範例程式**
-
-#### 取得範例程式碼
 (1) 使用 Git 或下載方始取得範例程式碼  
 程式碼網址
 [https://github.com/chilinwei/envinfo_client_nodemcu](https://github.com/chilinwei/envinfo_client_nodemcu)
